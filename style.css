@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#009739,#FEDD00);
+    min-height:100vh;
+    padding:20px;
+}
+
+.header{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    color:#fff;
+}
+
+.header h1{
+    font-size:32px;
+    font-weight:800;
+    margin-bottom:20px;
+    text-shadow:2px 2px 8px rgba(0,0,0,.3);
+}
+
+.matchInfo{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-bottom:30px;
+}
+
+.infoCard{
+    background:#fff;
+    color:#222;
+    padding:15px 25px;
+    border-radius:15px;
+    min-width:120px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.infoCard span{
+    display:block;
+    font-size:13px;
+    color:#777;
+}
+
+.infoCard strong{
+    font-size:20px;
+}
+
+#ticketContainer{
+    max-width:900px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25
