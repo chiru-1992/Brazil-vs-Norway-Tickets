@@ -1,55 +1,43 @@
-const container = document.getElementById("ticketContainer");
+const SECRET_CODE = "VINILAAND";
 
-tickets.forEach(ticket => {
+const unlockBtn = document.getElementById("unlockBtn");
+const ticketContainer = document.getElementById("ticketContainer");
 
-    container.innerHTML += `
-        <div class="ticket">
+unlockBtn.onclick = function () {
 
-            <div class="ticketHeader">
-                <h2>Ticket #${ticket.id}</h2>
-                <p>Brazil 🇧🇷 vs Norway 🇳🇴</p>
-            </div>
+    const code = prompt("Enter Secret Code");
 
-            <div class="codeBox">
-                <input
-                    type="password"
-                    id="code-${ticket.id}"
-                    placeholder="Enter Secret Code">
-
-                <button onclick="reveal(${ticket.id})">
-                    Reveal Players
-                </button>
-            </div>
-
-            <div class="players" id="players-${ticket.id}" style="display:none;">
-
-                <div class="playerCard">
-                    <img src="${ticket.brazil.image}">
-                    <div class="team">🇧🇷 Brazil</div>
-                    <div class="playerName">${ticket.brazil.name}</div>
-                </div>
-
-                <div class="playerCard">
-                    <img src="${ticket.norway.image}">
-                    <div class="team">🇳🇴 Norway</div>
-                    <div class="playerName">${ticket.norway.name}</div>
-                </div>
-
-            </div>
-
-        </div>
-    `;
-
-});
-
-function reveal(id){
-
-    const code = document.getElementById(`code-${id}`).value.trim();
-
-    if(code !== REVEAL_CODE){
-        alert("Wrong Secret Code");
+    if (code !== SECRET_CODE) {
+        alert("Wrong Code!");
         return;
     }
 
-    document.getElementById(`players-${id}`).style.display = "block";
-}
+    unlockBtn.style.display = "none";
+
+    players.forEach(ticket => {
+
+        ticketContainer.innerHTML += `
+
+        <div class="ticket">
+
+            <h2>🎟 Ticket ${ticket.id}</h2>
+
+            <div class="player">
+                <img src="${ticket.brazil.image}">
+                <h3>🇧🇷 ${ticket.brazil.name}</h3>
+            </div>
+
+            <hr>
+
+            <div class="player">
+                <img src="${ticket.norway.image}">
+                <h3>🇳🇴 ${ticket.norway.name}</h3>
+            </div>
+
+        </div>
+
+        `;
+
+    });
+
+};
