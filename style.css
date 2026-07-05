@@ -1,60 +1,99 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
 
 body{
-    background:linear-gradient(135deg,#009739,#FEDD00);
-    min-height:100vh;
-    padding:20px;
+background:linear-gradient(135deg,#1fae2f,#d8e800);
+padding:20px;
 }
 
 .header{
-    max-width:900px;
-    margin:auto;
-    text-align:center;
-    color:#fff;
+text-align:center;
+color:#fff;
+margin-bottom:25px;
 }
 
 .header h1{
-    font-size:32px;
-    font-weight:800;
-    margin-bottom:20px;
-    text-shadow:2px 2px 8px rgba(0,0,0,.3);
+font-size:42px;
+font-weight:bold;
+margin-bottom:20px;
+text-shadow:2px 2px 5px rgba(0,0,0,.4);
 }
 
-.matchInfo{
-    display:flex;
-    justify-content:center;
-    gap:15px;
-    flex-wrap:wrap;
-    margin-bottom:30px;
+.info{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+margin-bottom:20px;
 }
 
-.infoCard{
-    background:#fff;
-    color:#222;
-    padding:15px 25px;
-    border-radius:15px;
-    min-width:120px;
-    box-shadow:0 10px 25px rgba(0,0,0,.15);
+.card{
+background:#fff;
+color:#111;
+width:120px;
+padding:15px;
+border-radius:18px;
+box-shadow:0 8px 20px rgba(0,0,0,.2);
 }
 
-.infoCard span{
-    display:block;
-    font-size:13px;
-    color:#777;
+.card h3{
+font-size:18px;
+color:#666;
+margin-bottom:8px;
 }
 
-.infoCard strong{
-    font-size:20px;
+.card p{
+font-size:28px;
+font-weight:bold;
+}
+
+#unlockBtn{
+background:#111;
+color:#fff;
+border:none;
+padding:15px 35px;
+font-size:20px;
+border-radius:40px;
+cursor:pointer;
+margin-top:15px;
 }
 
 #ticketContainer{
-    max-width:900px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:25
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.ticket{
+background:#fff;
+border-radius:25px;
+padding:25px;
+box-shadow:0 10px 25px rgba(0,0,0,.25);
+text-align:center;
+}
+
+.ticket h2{
+margin-bottom:20px;
+font-size:30px;
+}
+
+.player{
+margin:25px 0;
+}
+
+.player img{
+width:230px;
+max-width:100%;
+height:auto;
+}
+
+.player h3{
+font-size:34px;
+margin-top:12px;
+font-weight:bold;
+}
