@@ -273,3 +273,4 @@ image:"players/sander_berge.jpg"
 }
 
 ];
+console.log("players.js loaded", players.length);
