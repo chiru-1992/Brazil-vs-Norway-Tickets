@@ -145,3 +145,136 @@ name:"Kristian Thorstvedt",
 image:"players/kristian_thorstvedt.jpg"
 }
 },
+{
+id:13,
+brazil:{
+name:"Bruno Guimaraes",
+image:"players/bruno_guimaraes.jpg"
+},
+norway:{
+name:"Leo Ostigard",
+image:"players/leo_ostigard.jpg"
+}
+},
+
+{
+id:14,
+brazil:{
+name:"Gabriel Martinelli",
+image:"players/gabriel_martinelli.jpg"
+},
+norway:{
+name:"Fredrik Aursnes",
+image:"players/fredrik_aursnes.jpg"
+}
+},
+
+{
+id:15,
+brazil:{
+name:"Lucas Paqueta",
+image:"players/lucas_paqueta.jpg"
+},
+norway:{
+name:"Fredrik Andre Bjorkan",
+image:"players/fredrik_andre_bjorkan.jpg"
+}
+},
+
+{
+id:16,
+brazil:{
+name:"Matheus Cunha",
+image:"players/matheus_cunho.jpg"
+},
+norway:{
+name:"Patrick Berg",
+image:"players/patrick_berg.jpg"
+}
+},
+
+{
+id:17,
+brazil:{
+name:"Endrick",
+image:"players/endrick.jpg"
+},
+norway:{
+name:"Thelo Aasgaard",
+image:"players/thelo_aasgaard.jpg"
+}
+},
+
+{
+id:18,
+brazil:{
+name:"Ederson",
+image:"players/ederson_silva.jpg"
+},
+norway:{
+name:"Morten Thorsby",
+image:"players/morten_thorsby.jpg"
+}
+},
+
+{
+id:19,
+brazil:{
+name:"Casemiro",
+image:"players/casemiro.jpg"
+},
+norway:{
+name:"Andreas Schjelderup",
+image:"players/andreas_schjelderup.jpg"
+}
+},
+
+{
+id:20,
+brazil:{
+name:"Marquinhos",
+image:"players/marquinhos.jpg"
+},
+norway:{
+name:"David Moller Wolfe",
+image:"players/david_moller_wolfe.jpg"
+}
+},
+
+{
+id:21,
+brazil:{
+name:"Raphinha",
+image:"players/raphinha.jpg"
+},
+norway:{
+name:"Hendrik Falchener",
+image:"players/hendrik_falchener.jpg"
+}
+},
+
+{
+id:22,
+brazil:{
+name:"Vinicius Junior",
+image:"players/vinicius_junior.jpg"
+},
+norway:{
+name:"Torbjorn Heggem",
+image:"players/torbjorn_heggem.jpg"
+}
+},
+
+{
+id:23,
+brazil:{
+name:"Neymar Jr",
+image:"players/neymer_jr.jpg"
+},
+norway:{
+name:"Sondre Langas",
+image:"players/sondre_langas.jpg"
+}
+}
+
+];
